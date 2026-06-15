@@ -1,0 +1,42 @@
+AbortError: The user aborted a request.
+    at abort (C:\Users\rohit\Downloads\test-main\test-main\node_modules\next\dist\compiled\node-fetch\index.js:1:65190)
+    at AbortSignal.abortAndFinalize (C:\Users\rohit\Downloads\test-main\test-main\node_modules\next\dist\compiled\node-fetch\index.js:1:65410)
+    at [nodejs.internal.kHybridDispatch] (node:internal/event_target:845:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:778:26)
+    at runAbort (node:internal/abort_controller:488:10)
+    at abortSignal (node:internal/abort_controller:459:3)
+    at AbortController.abort (node:internal/abort_controller:507:5)
+    at Timeout.<anonymous> (C:\Users\rohit\Downloads\test-main\test-main\node_modules\next\dist\compiled\@next\font\dist\google\fetch-font-file.js:24:51)
+    at listOnTimeout (node:internal/timers:605:17)
+    at process.processTimers (node:internal/timers:541:7) {
+  type: 'aborted'
+}
+ ⨯ Failed to download `Inter` from Google Fonts. Using fallback font instead.
+
+Failed to fetch `Inter` from Google Fonts.}
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⨯ ./app/icon.tsx?__next_metadata_image_meta__:1:0
+Module not found: Can't resolve 'next/og'
+[0m[31m[1m>[22m[39m[90m 1 | [39m[36mimport[39m { [33mImageResponse[39m } [36mfrom[39m [32m'next/og'[39m[33m;[39m[0m
+[0m [90m 2 | [39m[0m
+[0m [90m 3 | [39m[36mexport[39m [36mconst[39m runtime [33m=[39m [32m'edge'[39m[33m;[39m[0m
+[0m [90m 4 | [39m[36mexport[39m [36mconst[39m size [33m=[39m { width[33m:[39m [35m32[39m[33m,[39m height[33m:[39m [35m32[39m }[33m;[39m[0m
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/next-metadata-image-loader.js?type=icon&segment=&basePath=&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js!./app/icon.tsx?__next_metadata__
+ ⨯ ./app/icon.tsx?__next_metadata_image_meta__:1:0
+Module not found: Can't resolve 'next/og'
+[0m[31m[1m>[22m[39m[90m 1 | [39m[36mimport[39m { [33mImageResponse[39m } [36mfrom[39m [32m'next/og'[39m[33m;[39m[0m
+[0m [90m 2 | [39m[0m
+[0m [90m 3 | [39m[36mexport[39m [36mconst[39m runtime [33m=[39m [32m'edge'[39m[33m;[39m[0m
+[0m [90m 4 | [39m[36mexport[39m [36mconst[39m size [33m=[39m { width[33m:[39m [35m32[39m[33m,[39m height[33m:[39m [35m32[39m }[33m;[39m[0m
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/next-metadata-image-loader.js?type=icon&segment=&basePath=&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js!./app/icon.tsx?__next_metadata__
